@@ -84,7 +84,7 @@ def add_s(array)
 #  return s_array
 
   s_array = []
-  array.each_with_index{|element, index| index != 1 ? s_array.push(element + "s"), s_array.push(element)}
+  array.each_with_index{|element, index| index != 1 ? s_array.push(element + "s") : s_array.push(element)}
 
   return s_array
 
